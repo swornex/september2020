@@ -17,7 +17,7 @@
    if($result->num_rows > 0){
        while($row= $result->fetch_assoc()){
             echo "<pre>";
-            print_r($result); //debugging
+            print_r($result); //debugging......
        }
    }
 
